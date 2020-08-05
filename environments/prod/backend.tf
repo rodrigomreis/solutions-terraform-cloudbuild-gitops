@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "boa-vista-dev-tfstate"
     prefix = "env/prod"
   }
 }
